@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adenor - Boutique Shopping</title>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="shopStyle.css">
+</head>
+<body class="shop-body">
+
+    <nav class="navbar-fixed">
+        <ul class="nav1">
+            <li><img src="logoHOME.jpg" alt="Logo"></li>
+            <li><a href="home.html" >Home</a></li>
+            <li><a href="shop.html" >Shop</a></li>
+            <li><a href="login.html" >Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="shop-header">
+        <h2>Welcome to Adenor Shopping Boutique</h2>
+        <p>Please choose the exclusive fragrances you want and press buy</p>
+    </div>
+
+    <form action="shopping.php" method="POST" id="shoppingForm">
+        
+        <div class="products-grid">
+            
+            <div class="product-card">
+                <div class="img-container">
+                    <img src="brown.jpg" alt="Opulent Herenius">
+                </div>
+                <h3>Opulent Herenius</h3>
+                <p class="description">A bold, rich blend of dark oud, dry wood, and desert sand chords.</p>
+                <div class="price">75.00 JD</div>
+                <div class="quantity-area">
+                    <label>Number of items:</label>
+                    <input type="number" name="qty_opulent" min="0" value="0">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="img-container">
+                    <img src="red.jpg" alt="Lost Cherry Luxe">
+                </div>
+                <h3>Lost Cherry Luxe</h3>
+                <p class="description">A luscious, full-bodied journey into the vibrant, sweet-tart cherry notes.</p>
+                <div class="price">90.00 JD</div>
+                <div class="quantity-area">
+                    <label>Number of items:</label>
+                    <input type="number" name="qty_cherry" min="0" value="0">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="img-container">
+                    <img src="white.jpg" alt="Baiciel Cloud">
+                </div>
+                <h3>Baiciel Parrane</h3>
+                <p class="description">An ethereal, soft powdery mist layered over delicate white floral petals.</p>
+                <div class="price">65.00 JD</div>
+                <div class="quantity-area">
+                    <label>Number of items:</label>
+                    <input type="number" name="qty_baiciel" min="0" value="0">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="img-container">
+                    <img src="green.jpg" alt="Spectrum Green">
+                </div>
+                <h3>Spectrum Forest</h3>
+                <p class="description">Crisp pine needles fused with deep mossy tones and a touch of green warmth.</p>
+                <div class="price">55.00 JD</div>
+                <div class="quantity-area">
+                    <label>Number of items:</label>
+                    <input type="number" name="qty_spectrum" min="0" value="0">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="img-container">
+                    <img src="blue.jpg" alt="Parfum Homme Marine">
+                </div>
+                <h3>Parfum Homme Marine</h3>
+                <p class="description">An ocean breeze splash combined with fresh aquatic minerals and clean citrus zest.</p>
+                <div class="price">48.00 JD</div>
+                <div class="quantity-area">
+                    <label>Number of items:</label>
+                    <input type="number" name="qty_marine" min="0" value="0">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="img-container">
+                    <img src="pink.jpg" alt="Rosé Clouds Elixir">
+                </div>
+                <h3>Rosé Clouds Elixir</h3>
+                <p class="description">A dreamlike pink vanilla cream cloud surrounding a luxurious blooming rose heart.</p>
+                <div class="price">80.00 JD</div>
+                <div class="quantity-area">
+                    <label>Number of items:</label>
+                    <input type="number" name="qty_rose" min="0" value="0">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="buy-button-container">
+            <button type="submit" class="press-to-buy-btn">Press to Buy</button>
+        </div>
+        
+    </form>
+
+    <div class="shop-footer">
+        <p>&copy; 2026 Adenor Perfumes.</p>
+    </div>
+
+</body>
+</html>
